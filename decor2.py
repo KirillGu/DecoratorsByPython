@@ -30,8 +30,8 @@ def parameterized_logger(path):
     return logger
 
 
-@parameterized_logger("/Users/kirillgusev/Desktop/") 
-def say_something(*args, **kwargs):
-    return 'func_results'
+#@parameterized_logger("/Users/kirillgusev/Desktop/")
+#def say_something(*args, **kwargs):
+    #return 'func_results'
 
-say_something('Here', 'we will pass ', 'many', name='arguments' )
+#say_something('Here', 'we will pass ', 'many', name='arguments' )
