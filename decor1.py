@@ -21,7 +21,7 @@ def logger(some_func):
         return
 
     return wrapped
-        #print(now)
+        
 
 
 @logger
